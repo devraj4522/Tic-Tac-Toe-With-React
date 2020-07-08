@@ -1,0 +1,55 @@
+body{
+  background-color: rgb(2, 2, 68);
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 35px;
+  color: #fff;
+}
+
+.card{
+  transition: transform .1s;
+  background-color: #FF3E4D;
+}
+.card:hover {
+  transform: scale(.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  background-color: rgb(72, 255, 72);
+}
+
+.cross{
+  background-color: #FFF222;
+}
+.circle{
+  background-color: #FBD28B;
+
+}
+
+.btn{
+  background-color: rgb(255, 98, 7);
+}
+h1{
+  font-size: 3em;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(255, 255, 255);
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+h1:hover{
+  font-size: 3.2em;
+}
