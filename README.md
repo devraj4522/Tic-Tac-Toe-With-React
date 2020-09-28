@@ -1,7 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
+Run the code: 
+https://devraj4522.github.io/Tic-Tac-Toe-With-React/
 In the project directory, you can run:
 
 ### `npm start`
